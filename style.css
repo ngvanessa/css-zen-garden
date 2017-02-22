@@ -1,3 +1,12 @@
+/* Global */
+@import url('https://fonts.googleapis.com/css?family=Mukta+Vaani');
+
 body {
     background: red;
+}
+
+/* Typography */
+
+h1,h2 {
+    font-family: 'Mukta Vaani', sans-serif;
 }
