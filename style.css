@@ -2,11 +2,66 @@
 @import url('https://fonts.googleapis.com/css?family=Mukta+Vaani');
 
 body {
-    background: red;
+    background: wheat;
 }
 
 /* Typography */
 
 h1,h2 {
     font-family: 'Mukta Vaani', sans-serif;
+}
+
+/* Layout */ 
+
+.page-wrapper {
+    background: red;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#zen-intro {
+    background: #e5e298;
+}
+
+#zen-supporting {
+    background: red;
+}
+
+.sidebar {
+    background: black;
+    
+}
+/* Media Query */
+
+/* Mobile: 320px = 20em */
+@media screen and (min-width: 20em) { 
+
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: yellow;
+       content: "Mobile Size";
+  }
+  /* End Mobile */
+}
+
+/* Tablet:  768px = 160em */
+@media screen and (min-width: 48em)  {
+
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: yellow;
+       content: "Tablet Size";
+  }
+/* End Tablet */
+}
+
+/* Desktop: 1280px = 80em */
+@media screen and (min-width: 80em) { 
+  
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: yellow;
+       content: "Desktop Size";
+  }
+/* End Desktop */
 }
